@@ -1,0 +1,50 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;    
+}
+
+.container{
+    padding: 27px;
+    background-image: url("https://m.media-amazon.com/images/I/41lNxJQ88dL._AC_UF1000,1000_QL80_.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.calc{
+    background: linear-gradient(to right, #06080b, #3c8e9b);
+    margin-top: 50px;
+    padding: 25px;
+    border-radius: 10px;
+    
+}
+.btn{
+    margin:10px;
+    padding:20px;
+    border-radius: 40px;
+    font-size: large;
+    cursor: pointer;
+}
+.dis{
+    width:290px;
+    height:60px;
+    cursor: pointer;
+    text-align: right;
+    font-size: xx-large;
+    
+}
+#b1{
+    color:black;
+}
+.btneq
+{
+    padding-left: 65px;
+    padding-right: 65px;
+    padding-top: 20px;;
+    padding-bottom: 20px;;
+    border-radius: 40px;
+    font-size: large;
+    cursor: pointer;
+}

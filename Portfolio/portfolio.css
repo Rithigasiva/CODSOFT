@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  header {
+    background-color: #1a4659;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+  
+  header p {
+      font-size: 1.3rem;
+      margin-bottom: 1rem;
+    }
+    
+    .sidebar {
+    background-color: #1a4659;
+    color: #fff;
+    padding: 40px;
+    left:0;
+    margin-right:20px;
+    width: 190px; 
+    height: 100%;
+    position:absolute; 
+    
+  } 
+  
+  
+  main{
+    background-image: url('https://img.freepik.com/free-vector/abstract-background-design-dark-green_53876-59276.jpg'); 
+
+  }
+  .sidebar nav ul li {
+    margin-bottom: 50px;
+    list-style: none;
+  }
+  
+  .sidebar nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    border-radius: 50px;
+    transition: background 0.3s ease;
+  }
+  
+  .sidebar nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  
+  main {
+    margin-left: 220px; 
+    padding: 20px;
+    width: calc(100% - 220px); 
+  }
+  
+  .hero {
+    background-image: url('https://img.freepik.com/free-vector/abstract-background-design-dark-green_53876-59276.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .heroc {
+    text-align: center;
+    color: #fff;
+    margin-left: 200px;
+  }
+  
+  .heroc h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .heroc p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .heroc .btn {
+    background-color: #4dd0e1;
+    padding: 0.8rem 2rem;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: background 0.3s ease;
+  }
+  
+  .heroc .btn:hover {
+    background-color: #333;
+  }
+  
+ 
+  .about {
+    padding: 4rem 0;
+    background-color: #1a4659;
+    color: white;
+  }
+  
+  .about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .about p {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    line-height: 1.8;
+  }
+  
+  .projects {
+    padding: 4rem 0;
+    background-image: url('https://img.freepik.com/free-vector/abstract-background-design-dark-green_53876-59276.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .projects h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: white;
+
+  }
+  
+  .project1{
+    gap: 20px;
+  }
+  
+  .project2 {
+    background-color: #fff;
+    padding: 20px;
+    margin: 40px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .project2:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .project2 h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .project2 p {
+    font-size: 1.1rem;
+    line-height: 1.5;
+  }
+  
+  .contact {
+    padding: 4rem 0;
+    text-align: center;    
+    background-color: #1a4659;
+  }
+  
+  .contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: white;
+
+  }
+  
+  .contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .contact input,
+  .contact textarea {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contact button {
+    padding: 15px;
+    background-color: #4a90e2;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .contact button:hover {
+    background-color: #333;
+  }
+  
+ 
